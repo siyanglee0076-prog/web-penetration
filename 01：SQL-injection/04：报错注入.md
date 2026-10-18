@@ -2,7 +2,7 @@
 
 ## 一、环境
 
-- 靶场：自建本地 CMS 靶场（PHP + MySQL + Apache）
+- 靶场：自建本地 sqli-labs-master 靶场
 - 工具：Burp Suite + HackBar
 - 数据库：MySQL
 

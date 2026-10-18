@@ -1,6 +1,6 @@
 # **环境统一：**
 
-> **自建本地 CMS 靶场（PHP + MySQL + Apache）**
+> **自建本地 CMS、XSSChallenge 靶场（PHP + MySQL + Apache）**
 > **工具：Burp Suite + HackBar**
 
 ------

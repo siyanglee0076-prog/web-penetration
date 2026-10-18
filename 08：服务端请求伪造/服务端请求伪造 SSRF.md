@@ -2,7 +2,7 @@
 
 ## 1. 实验环境
 
-- 靶场：自建本地 CMS 靶场（PHP + MySQL + Apache）
+- 靶场：自建本地 CMS、ssrf 靶场（PHP + MySQL + Apache）
 - 工具：BP（Burp Suite）+ HackBar
 - 漏洞类型：服务端请求伪造（SSRF）
 
@@ -218,7 +218,7 @@ src=
 
 ### 测试环境
 
-自建本地 CMS 靶场（PHP + MySQL + Apache）
+自建本地 CMS、ssrf 靶场（PHP + MySQL + Apache）
 
 ### 使用工具
 
